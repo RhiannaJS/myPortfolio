@@ -8,7 +8,7 @@
 }
 
 #headerText{
-    text-shadow: 20px 20px --orange;
+    text-shadow: 2px 2px var(--white);
 }
 
 h1{
@@ -18,6 +18,7 @@ h1{
 }
 
 h3{
+    text-shadow: 2px 2px var(--white);
     text-align: right;
     align-content: center;
 }

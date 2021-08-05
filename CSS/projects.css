@@ -1,15 +1,52 @@
-.row{
+.myRow{
+    display: flex;
+    margin: 20px 150px;
+}
+
+.projectCardsRow1{
     display: flex;
     flex-direction: row;
+    /* align-content: center; */
+    /* justify-content: center;  */
+    align-items: flex-start;
 }
 
-.card-img-top{
+.rone{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start;
+} 
+
+.rtwo{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start;
+} 
+
+.card{
+    min-height: 375px;
+    max-height: 375px;
+    /* min-width: 280px;
+    max-width: 280px; */
+}
+
+ .card-img-top{
     width: 100%;
     height: 15vw;
-    object-fit: cover;
+    object-fit: cover; 
 }
 
-#projectCardsRow2{
-    height: 450vh;
+#row1{
+    background: var(--periwinkle);
+} 
 
-}
+
+/* #projectCardsRow2{
+    height: 450vh; 
+
+} 
+*/

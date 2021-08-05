@@ -1,6 +1,7 @@
 .navbar-brand{
     font-family: var(--font-one);
     font-size: 24pt;
+    background: var(--periwinkle);
 }
 
 .nav-link{

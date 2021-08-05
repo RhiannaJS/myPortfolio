@@ -1,15 +1,16 @@
 :root {
-    --red: #e80d0d;
-    --orange: #f98500;
+    --bright-violet: #7400b8;
+    --dark-periwinkle: #5e60ce;
     --dark-violet: #C096C;
     --aqua: #56CFE1;
     --light-periwinkle: #5390D9;
     --blue: #031BFE;
     --periwinkle: #5E60CE;
     --purple: #6930C3;
-    --brown: #6d6656;
+    --white: #dec9e9;
     --grey: #53565a;
     --black: #272727;
+    --blue-grey: #5390d9;
     
     --font-one: "Courgette', cursive";
     --font-two: "Poppins', sans-serif";
