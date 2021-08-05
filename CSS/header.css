@@ -1,0 +1,28 @@
+.landing {
+    background: url("../assets/tomoko-uji-qzoSJlPxS9k-unsplash.jpg")
+    center bottom;
+    background-size: cover;
+    height: 90vh;
+    color: var(--black);
+    font-weight: bold;
+}
+
+#headerText{
+    text-shadow: 20px 20px --orange;
+}
+
+h1{
+    text-align: center;
+    align-content: center;
+    text-shadow: 20px 20px --orange;
+}
+
+h3{
+    text-align: right;
+    align-content: center;
+}
+
+#quote{
+    height: 500px;
+   
+}

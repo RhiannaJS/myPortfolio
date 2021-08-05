@@ -1,0 +1,10 @@
+body{
+    background: var(--periwinkle);
+
+}
+
+#quote{
+    line-height: 500px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}

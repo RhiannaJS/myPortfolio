@@ -1,0 +1,15 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+#projectCardsRow2{
+    height: 450vh;
+
+}
