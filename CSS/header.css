@@ -1,11 +1,15 @@
 .landing {
-    background: url("../assets/tomoko-uji-qzoSJlPxS9k-unsplash.jpg")
-    center bottom;
+    /* background: url("../assets/tomoko-uji-qzoSJlPxS9k-unsplash.jpg"); */
+    /* center: bottom; */
+    /* filter: alpha(opacity=90); */
+    /* opacity: .9; */
     background-size: cover;
-    height: 90vh;
+    height: 0vh;
     color: var(--black);
     font-weight: bold;
 }
+
+
 
 #headerText{
     text-shadow: 2px 2px var(--white);
@@ -14,7 +18,7 @@
 h1{
     text-align: center;
     align-content: center;
-    text-shadow: 20px 20px --orange;
+    
 }
 
 h3{

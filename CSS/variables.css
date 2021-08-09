@@ -17,8 +17,3 @@
     --font-three: "vogue";
 }
 
-@font-face{
-    font-family: "vogue";
-    src: url("../assets/img/Vogue.ttf");
-    font-weight: bolder;
-}

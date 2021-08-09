@@ -1,6 +1,8 @@
 .myRow{
     display: flex;
     margin: 20px 150px;
+    
+    
 }
 
 .projectCardsRow1{
@@ -17,6 +19,7 @@
     flex-wrap: wrap;
     justify-content: center; 
     align-items: flex-start;
+    font: var(--font-two);
 } 
 
 .rtwo{
@@ -25,13 +28,41 @@
     flex-wrap: wrap;
     justify-content: center; 
     align-items: flex-start;
+    font: var(--font-two);
 } 
 
 .card{
     min-height: 375px;
     max-height: 375px;
+    background: #9ba9ff;
+    font: var(--font-two);
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
+    position: relative;
+    transition: .3s;
     /* min-width: 280px;
     max-width: 280px; */
+}
+
+.card.text-content,
+.card:after{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+}
+
+.card:after{
+    content: ' ';
+    display: block;
+    background: purple;
+    top: 20px;
+    opacity:0;
+    transform: rotate3d(-1, 1, 0, 100deg);
+    transition: .4s;
+}
+
+.card:hover:after{
+    opacity: .9;
+    transform: rotate3d(0,0,0,0deg);
 }
 
  .card-img-top{
@@ -40,9 +71,18 @@
     object-fit: cover; 
 }
 
+.card-body{
+    font: var(--font-two);
+}
+
 #row1{
     background: var(--periwinkle);
+    font: var(--font-two);
 } 
+
+/* .card:hover{
+
+} */
 
 
 /* #projectCardsRow2{

@@ -8,3 +8,7 @@
     color: var(--grey);
     
 }
+
+.navbar-light{
+    background: var(--periwinkle);
+}

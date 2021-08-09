@@ -12,3 +12,13 @@
     font: var(--font-one);
 }
 
+#gitHub:hover{
+     background-color:#e9c46a;
+     border-radius: 40px;
+}
+
+#linkedIn:hover{
+    background-color: #e9c46a;
+    border-radius: 5px;
+}
+
