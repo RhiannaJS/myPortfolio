@@ -6,9 +6,15 @@
 
 .nav-link{
     color: var(--grey);
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: var(--font-two);
+  
     
 }
+
 
 .navbar-light{
     background: var(--periwinkle);
 }
+

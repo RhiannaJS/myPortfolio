@@ -35,6 +35,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <!-- My CSS -->
     <link rel="stylesheet" href="./CSS1/main.css">
 
@@ -44,22 +47,32 @@
   
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
       <!-- <nav class="navbar navbar-default navbar-fixed-top"> -->
+
       <nav class="navbar navbar-light">
-        <div class="container-fluid">
+        <div class="container-fluid" id="navbar">
           <a class="navbar-brand" href="./assets/Resume (1).pdf">Rhianna Souder</a><a id="home">
+            
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <!-- Bootstrap Flex -->
+              <div class="d-flex justify-content-end">
+                <div class="d-flex flex-column bd-highlight mb-3">
+              
+                <!-- <a class="nav-link active" aria-current="page" href="#home">Home</a> -->
               <a class="nav-link" href="#about_me">About Me</a>
               <a class="nav-link" href="#projects">Projects</a>
               <a class="nav-link" href="./assets/Resume (1).pdf">My Resume</a>
               <a class="nav-link" href="#contact_me">Contact Me</a>
             </div>
+            </div>
           </div>
         </div>
+      </div>
+    </a>
       </nav>
     
     <!-- </nav> -->
@@ -84,7 +97,7 @@
         <div class="parallax"></div>  
         <a id="about_me">
     <section id = "aboutMe">
-        <h1 style = "text-align: center" class="display-6">About Me</h1>
+        <h1 style = "text-align: center" class="display-6" id="about">About Me</h1>
         <div class="container">
             <div class="row">
                 <div class="col-4">
@@ -111,15 +124,15 @@
         <!-- Static Layout -->
 <a id="projects">       
 <div class="container-fluid" id="row1">      
-<h2 style="text-align: center" class="display-6">Projects</h2>  
+<h2 style="text-align: center" class="display-6" id="projects_header">Projects</h2>  
 <div class="projectCardsRow1">
   <div class="row rone">
     <div class="col-2 myRow">
       <div class="card" class="cardSize">
         <a href="https://elevenfifty.org"><img src="./assets/mobile-shield.png" class="card-img-top" alt="ElevenFifty Academy Shield"></a>
-        <div class="card-body">
-          <p class="card-text">Static Layout of Eleven Fifty Academy Website using HTML and CSS</p>
-        </div>
+        <!-- <div class="card-body"> -->
+          <p class="card-text" style="font: var(--font-two)">Static Layout of Eleven Fifty Academy Website using HTML and CSS</p>
+        <!-- </div> -->
       </div>
       </div>
    
@@ -130,9 +143,9 @@
 <div class="col-2 myRow"> 
   <div class="card" class="cardSize"><a href="https://codepen.io/Rhianna1979/pen/MWmoNxY">
       <img src="./assets/BMO2.JPG" class="card-img-top" alt="Image"></a>
-      <div class="card-body">
+      <!-- <div class="card-body"> -->
           <p class="card-text">A little creature in Codepen</p>
-        </div>
+        <!-- </div> -->
       </div>
       </div>
     <!-- </div>
@@ -144,9 +157,9 @@
   <div class="card" class="cardSize">
     <a href="https://rhiannajs.github.io/API-Project-1/">
     <img src="./assets/chihiro036.jpg" class="card-img-top" alt="Spirited Away Image"></a>
-    <div class="card-body">
+    <!-- <div class="card-body"> -->
       <p class="card-text">Javascript - HTML using an API </p>
-    </div>
+    <!-- </div> -->
   </div>
 </div>
 </div>
@@ -158,10 +171,10 @@
     <div class="row rtwo">
       <div class="col-2 myRow">
     <div class="card" class="cardSize">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">API PROJECT 2 PLACE HOLDER</p>
-        </div>
+        <img src="./assets/API2.JPG" class="card-img-top" alt="API Project Image">
+        <!-- <div class="card-body"> -->
+          <p class="card-text">API Project, HTML, CSS, JavaScript</p>
+        <!-- </div> -->
       </div>
     </div>
 
@@ -170,9 +183,9 @@
     <div class="col-2 myRow">
     <div class="card" class="cardSize">
         <img src="./assets/badges-webdev_blue.png" class="card-img-top" alt="EFA Blue Badge Logo">
-        <div class="card-body">
+        <!-- <div class="card-body"> -->
           <p class="card-text">BLUE BADGE PROJECT PLACE HOLDER</p>
-        </div>
+        <!-- </div> -->
       </div>
 </div>
     <!-- Red Badge TBA -->
@@ -180,19 +193,28 @@
     <div class="col-2 myRow">
     <div class="card" class="cardSize">
         <img src="./assets/badges-webdev_red.png" class="card-img-top" alt="EFA Red Badge Logo">
-        <div class="card-body">
+        <!-- <div class="card-body"> -->
           <p class="card-text">RED BADGE PROJECT PLACE HOLDER</p>
-        </div>
+        <!-- </div> -->
       </div>
+</div>
+<!-- Bootstrap Icon Up -->
+
+<div class="arrow-up">
+<a href = "#home"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="var(--black)" class="bi bi-arrow-up-circle" id="upArrow" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg>
+</a>
 </div>
 </div>
 </div>
 </a> 
 
+
 <a id="contact_me">
 <section id = "contact">
-    <div class= "container2">
-        <h2 class="display-6" style="text-align: center" id="contacMeh2" >Contact Me</h2>
+    <div class= "container">
+        <h2 class="display-6" id="contactMeh2">Contact Me</h2>
         <!-- <div class="row">
             <div class = "col-12"> -->
                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xgernzbg" method="post">
@@ -215,6 +237,10 @@
           </div>
 </section>
 </a>
+
+
+
+
 <!-- Footer -->
 
 <div>
@@ -222,6 +248,14 @@
     <a href="https://github.com/RhiannaJS"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="var(--black)" class="bi bi-github" id="gitHub" viewBox="0 0 16 16">
       <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
     </svg></a>
+    
+    <!-- <div class="icons">
+
+      <i class="fa fa-github-square square" aria-hidden="true"></i>
+       <i class="fa fa-github git"></i> 
+    
+    
+  </div> -->
     <!-- <i class="bi bi-github">GitHub</i> -->
 
     <a href="https://www.linkedin.com/in/rhianna-souder-57a233171"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="var(--black)" class="bi bi-linkedin" id="linkedIn" viewBox="0 0 16 16">
