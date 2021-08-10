@@ -1,5 +1,6 @@
 #projects_header{
     padding: 25px;
+    font-family: var(--font-one);
 }
 
 .myRow{
@@ -83,7 +84,7 @@
     color: #fff;
 }
 
-.card-text h4{
+.card-text{
     font-family: var(--font-one)
 }
 
@@ -110,8 +111,9 @@
 
 .arrow-up{
     display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
+    justify-content: center;
+    /* padding-right: 50px; */
+    padding-top: 25px;
 }
 
 #upArrow:hover{
