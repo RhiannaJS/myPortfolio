@@ -5,6 +5,12 @@
     
 }
 
+.me{
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+}
+
 #about{
     font-family: var(--font-one);
 }
