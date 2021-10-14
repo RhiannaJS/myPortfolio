@@ -1,8 +1,8 @@
 #aboutMe{
     /* background: var(--blue-grey); */
     padding-bottom: 25px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 75px;
+    padding-right: 75px;
     font-family: var(--font-two);
     color: white;
     background: black;
@@ -18,7 +18,7 @@
     font-family: var(--font-one);
 }
 
-.col-3{
+/* .col-3{
     max-width: 30%;
     max-height: 30%;
-}
+} */
