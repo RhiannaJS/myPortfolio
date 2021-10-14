@@ -6,12 +6,13 @@
 }
 
 #headerText{
-    position: relative;
+    
     text-shadow: 2px 2px var(--white);
    
 }
 
 h1{
+    position: sticky;
     text-align: center;
     align-content: center;
     padding: 25px;
@@ -19,12 +20,14 @@ h1{
 }
 
 h3{
+    position: sticky;
     text-shadow: 2px 2px var(--white);
     text-align: right;
     align-content: center;
 }
 
 #quote{
+    align-content: center;
     height: 500px;
    
 }
