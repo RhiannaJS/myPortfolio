@@ -1,6 +1,8 @@
 #projects_header{
     padding: 25px;
     font-family: var(--font-one);
+    color: white;
+    background: black;
 }
 
 .myRow{
@@ -105,7 +107,8 @@
 }
 
 #row1{
-    background: var(--periwinkle);
+    /* background: var(--periwinkle); */
+    background: black;
     font: var(--font-two);
 } 
 
@@ -117,7 +120,7 @@
 }
 
 #upArrow:hover{
-    background-color: #e9c46a;
+    background-color: #03045e;
     border-radius: 50%;
 }
 

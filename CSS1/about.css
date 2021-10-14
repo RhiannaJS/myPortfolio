@@ -1,16 +1,21 @@
 #aboutMe{
-    background: var(--blue-grey);
+    /* background: var(--blue-grey); */
     padding-bottom: 25px;
     font-family: var(--font-two);
+    color: white;
+    background: black;
     
 }
 
 .me{
-    height: 300px;
-    width: 250px;
+    max-height: 300px;
+    max-width: 250px;
     border-radius: 50%;
 }
 
+
+
 #about{
     font-family: var(--font-one);
+    
 }
