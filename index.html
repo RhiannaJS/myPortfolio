@@ -34,16 +34,29 @@
       }
 
       @media screen and (max-width: 922px) {
-  .col-3 {
-    width: 50%;
-  }
+        .col-3 {
+          width: 50%;
+        }
+      }
 
-  @media screen and (max-width: 600px) {
-  .col-3 {
-    width: 100%;
-  }
-}
-}
+      @media screen and (max-width: 600px) {
+        .col-3 {
+          width: 100%;
+        }
+      }
+
+
+      @media screen and (max-width: 600px) {
+        #headerText {
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        #tRquote {
+          display: none;
+        }
+      }
     </style>
 
     <!-- Google Fonts -->
@@ -100,13 +113,13 @@
 
 
     <div class="container-fluid landing">
-      <div class="container" id="quote">
+      <div class="container-fluid" id="quote">
         <!-- <img src="./assets/me_pic.JPG" class="me"> -->
         <h1 class="display-4" id="headerText">
 
           "Believe you can, and you're half way there"
         </h1>
-        <h3 class="display-6">-Theodore Roosevelt</h3>
+        <h3 class="display-6" id="tRquote">-Theodore Roosevelt</h3>
       </div>
       <div class="parallax"></div>
     </div>
@@ -218,37 +231,37 @@
                 <!-- <div class="card-body"> -->
                 <p class="card-text">API Project, HTML, CSS, JavaScript</p>
                 <!-- </div> -->
-              </a>
-              </div>
+            </a>
           </div>
-    
+        </div>
 
-    <!-- Blue Badge  -->
 
-    <div class="col-2 myRow">
-      <div class="card" class="cardSize">
-        <a href="https://team-2-monster-tracker.herokuapp.com/">
-          <img src="./assets/blm.JPG" class="card-img-top" alt="EFA Blue Badge Logo">
-          <!-- <div class="card-body"> -->
-          <p class="card-text">PERN Stack Project 1, JavaScript, Node, PostgreSql, Express, React</p>
-        </a>
-          <!-- </div> -->
-      </div> 
-    </div>
-  
- 
-    <!-- Red Badge  -->
+        <!-- Blue Badge  -->
 
-    <div class="col-2 myRow">
-      <div class="card" class="cardSize">
-        <a href="https://rjs-concert-app.herokuapp.com/">
-          <img src="./assets/mce.JPG" class="card-img-top" alt="EFA Red Badge Logo">
-          <!-- <div class="card-body"> -->
-          <p class="card-text">PERN Stack Project 2, Typescript, React, Express, Node, PostgreSql</p>
-          <!-- </div> -->
-      </div>
-    </div>
-  </a>
+        <div class="col-2 myRow">
+          <div class="card" class="cardSize">
+            <a href="https://team-2-monster-tracker.herokuapp.com/">
+              <img src="./assets/blm.JPG" class="card-img-top" alt="EFA Blue Badge Logo">
+              <!-- <div class="card-body"> -->
+              <p class="card-text">PERN Stack Project 1, JavaScript, Node, PostgreSql, Express, React</p>
+            </a>
+            <!-- </div> -->
+          </div>
+        </div>
+
+
+        <!-- Red Badge  -->
+
+        <div class="col-2 myRow">
+          <div class="card" class="cardSize">
+            <a href="https://rjs-concert-app.herokuapp.com/">
+              <img src="./assets/mce.JPG" class="card-img-top" alt="EFA Red Badge Logo">
+              <!-- <div class="card-body"> -->
+              <p class="card-text">PERN Stack Project 2, Typescript, React, Express, Node, PostgreSql</p>
+              <!-- </div> -->
+          </div>
+        </div>
+    </a>
     <!-- Bootstrap Icon Up -->
 
     <div class="arrow-up">
