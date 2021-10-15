@@ -15,8 +15,6 @@
 .projectCardsRow1{
     display: flex;
     flex-direction: row;
-    /* align-content: center; */
-    /* justify-content: center;  */
     align-items: flex-start;
 }
 
@@ -42,15 +40,12 @@
 } 
 
 .card{
-    /* min-height: 375px; */
     max-height: 375px;
     background: #9ba9ff;
     font: var(--font-two);
     box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
     position: relative;
     transition: .3s;
-    /* min-width: 280px;
-    max-width: 280px; */
 }
 
 .card .card-text,
@@ -63,10 +58,11 @@
 .card:after{
     content: '';
     display: block;
-    background: #7400b8;
+    background: #5e60ce;
+    /* background: black; */
     top: 20px;
     bottom: 20px;
-    opacity:0;
+    opacity: 0;
     transform: rotate3d(-1,1,0,100deg);
     transition: .4s;
 }
@@ -115,7 +111,6 @@
 .arrow-up{
     display: flex;
     justify-content: center;
-    /* padding-right: 50px; */
     padding-top: 25px;
 }
 
@@ -124,13 +119,3 @@
     border-radius: 50%;
 }
 
-/* .card:hover{
-
-} */
-
-
-/* #projectCardsRow2{
-    height: 450vh; 
-
-} 
-*/
